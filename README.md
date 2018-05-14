@@ -1,0 +1,1 @@
+# Named_Pipes_Serial_Commnication_Semaphores_Threads_and_RT_Tasks_in_Kernel_Space

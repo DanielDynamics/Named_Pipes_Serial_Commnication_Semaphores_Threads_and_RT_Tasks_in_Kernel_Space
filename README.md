@@ -27,5 +27,6 @@ In this part, it needs to modify the pthread that you created in part 1. The pur
 
 Part 4: Interpolation and Display
 A printing thread should be created to display the final output for each push button event. The final data (the real time event’s time-stamp, the previous and the next GPS data and their corresponding time-stamps) are to be received by this printing thread through a named pipe. Using the final data, you will interpolate the GPS value corresponding to the push button event. Finally, this thread will print: the time-stamp and value of the GPS event prior to the push button event, the time-stamp and the (estimated) GPS value of the push button event, and the time- stamp and value of the GPS event after the push button event.
+
 NOTE 1: Before running the user space program, make sure that the kernel module has been installed.
 NOTE 2: In Figure 1, a basic flowchart of the program is shown. It might need more pthreads, buffers, semaphores, etc. in order to complete the assignment
